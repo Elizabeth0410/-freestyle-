@@ -1,0 +1,64 @@
+html>
+<body>
+    <h1>The Eiffel Tower</h1>
+    
+    <section>
+        <a href="https://sololearnassets.azureedge.net/eiffel-tower.jpg
+" target="_blank"><img src="https://sololearnassets.azureedge.net/eiffel-tower.jpg
+" alt="Eiffel Tower" width="50%"></a>
+
+    <p>The <strong>Eiffel Tower</strong> is a wrought-iron tower that stands <strong>1,063 ft (324 m)</strong> tall in <strong>Paris</strong>.</p>
+
+    <p>Currently, the <strong>Eiffel Tower</strong> is the most-visited monument in the world with over <strong>7 million</strong> visitors a year.<p/>
+
+    <p>Visitors can choose to go up using the Tower lift or the stairs. There are <strong>1,665 steps</strong> to the top.</p>
+    
+    <p><strong>Transport:</strong></p>
+    <ul>   
+        <li>Bus: lines 42, 69, 72, 82 and 87.</li>
+        <li>Metro: Trocadero, Ecole militaire.</li>
+        <li>Train: Champ de Mars - Tour Eiffel, line C.</li>
+    </ul>
+    
+    <table border="1">
+        <caption><strong>Ticket Prices:</strong></caption>
+        <tr>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Adults</td>
+            <td>$12</td>
+        </tr>
+        <tr>
+            <td>Children</td>
+            <td>$5</td>
+        </tr>
+    </table>
+    </section>
+  
+    <section id="popup">
+        <output id="out"></output>
+    </section>
+    
+    <section id="buy">
+      <form>
+          <label>
+              <i>Adults: </i>
+              <input type="number" id="adult">
+          </label><br />
+          <label>
+              <i>Children: </i>
+              <input type="number" id="child">
+          </label><br />
+          <input type="button" onclick="calc()" value="Buy Tickets"/>
+      </form>
+    </section>
+  
+  
+    <footer>
+      <p>&copy; Copyright &copy; allright® :)</p>
+    </footer>
+    
+</body>
+</html>
